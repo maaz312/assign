@@ -1,0 +1,41 @@
+tuple1=(1,2,3,4)
+tuple2=(5,6,7,8)
+combined_tuple=tuple1+tuple2
+print(tuple1+tuple2)
+
+tuple1=('HI',)
+repeated_tuple = tuple1 * 3
+print(repeated_tuple)
+
+numbers=(0,1,2,3,4,5,6,7,8,9,10)
+print(numbers[1:4])
+print(numbers[3:8])
+print(numbers[0:10])
+
+
+fruits_tuple=('apple','banana','cherry','mango','orange')
+print(fruits_tuple.count('apple'))
+
+
+fruits_tuple=('apple','banana','cherry','mango','orange','apple')
+print(fruits_tuple.index('mango'))
+
+
+name_tuple=('hameeeed')
+print(name_tuple.count('e'))
+
+
+for i in range(8):
+    if i==6:
+        break
+    print(i)
+
+
+
+for num in range(10):
+    if num==4:
+        continue
+    print(num)
+
+
+
